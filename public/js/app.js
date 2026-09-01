@@ -1,0 +1,1 @@
+document.querySelector('.menu-toggle')?.addEventListener('click',()=>{const nav=document.querySelector('.nav nav');nav.style.display=nav.style.display==='flex'?'none':'flex';nav.style.position='absolute';nav.style.top='88px';nav.style.left='0';nav.style.right='0';nav.style.padding='25px';nav.style.background='#0b0b0a';nav.style.flexDirection='column'});
