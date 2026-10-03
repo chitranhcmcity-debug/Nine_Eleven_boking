@@ -92,7 +92,9 @@ export async function seedAll() {
   );
   // The catalogue is defined by products.json, so drop products that are no longer in it.
   await Product.deleteMany({ slug: { $nin: products.map((product) => product.slug) } });
-  await upsertAll(Branch, 'slug', data.branches.map(toBranch));
+  const branches = data.branches.map(toBranch);
+  await upsertAll(Branch, 'slug', branches);
+  await Branch.deleteMany({ slug: { $nin: branches.map((branch) => branch.slug) } });
   await upsertAll(Article, 'slug', data.blogs.map(toArticle));
 }
 
