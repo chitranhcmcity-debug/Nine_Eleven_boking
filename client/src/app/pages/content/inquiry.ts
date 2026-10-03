@@ -11,7 +11,7 @@ import { apiMessage } from '../../core/format';
     <div class="page-heading"><p>NINEELEVEN BARBER STUDIO</p><h1>{{ academy() ? 'HỌC BARBER' : 'HỎI BARBER' }}</h1></div>
     <section class="content-section inquiry-layout">
       <div>
-        <img src="images/4rau/branch-3.webp" alt="Không gian barber" />
+        <img src="images/4rau/branch-ne-2.webp" alt="Không gian barber NineEleven" />
         <h2>{{ academy() ? 'BẮT ĐẦU HÀNH TRÌNH BARBER.' : 'TÓC CỦA BẠN. CÂU HỎI CỦA BẠN.' }}</h2>
         <p>
           {{
