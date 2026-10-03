@@ -277,31 +277,52 @@
     },
     {
       "title": "Erling Haaland cắt Buzz Cut: Khi “người Viking” trở lại với mái tóc quân đội",
-      "image": "images/4rau/blog-1.webp"
+      "image": "images/4rau/blog-1.webp",
+      "category": "Kiểu tóc",
+      "excerpt": "Buzz cut gọn, nhanh, nam tính — những điều cần biết trước khi cầm tông-đơ.",
+      "bodyFile": "article-1-body.html"
     },
     {
       "title": "Ngày Đẹp Cắt Tóc Tháng 9/2026 Ngày Nào Tốt? 5 Ngày Đẹp Nhất Theo Lịch Vạn Niên",
-      "image": "images/4rau/blog-2.webp"
+      "image": "images/4rau/blog-2.webp",
+      "category": "Kiến thức",
+      "excerpt": "Gợi ý chọn ngày cắt tóc theo thói quen và theo công việc của bạn.",
+      "bodyFile": "article-2-body.html"
     },
     {
       "title": "Pomade Gốc Dầu Khó Gội? Đây Là Cách Barber 4RAU Vẫn Làm Mỗi Ngày",
-      "image": "images/4rau/blog-3.webp"
+      "image": "images/4rau/blog-3.webp",
+      "category": "Chăm sóc tóc",
+      "excerpt": "Cách làm tan pomade gốc dầu và gội sạch mà không làm khô tóc.",
+      "bodyFile": "article-3-body.html"
     },
     {
       "title": "Warrior Cut Là Gì? Kiểu Tóc James (CORTIS) Đang Gây Sốt TikTok 2026",
-      "image": "images/4rau/blog-4.webp"
+      "image": "images/4rau/blog-4.webp",
+      "category": "Kiểu tóc",
+      "excerpt": "Warrior cut là gì, hợp với ai và cách tạo kiểu tại nhà.",
+      "bodyFile": "article-4-body.html"
     },
     {
       "title": "HAIR HỌC TRÒ 2026: 10 Kiểu Tóc Nam Đi Học Đẹp, Gọn, Chuẩn Trend",
-      "image": "images/4rau/blog-5.webp"
+      "image": "images/4rau/blog-5.webp",
+      "category": "Kiểu tóc",
+      "excerpt": "Những hướng chọn kiểu tóc nam đi học gọn gàng, dễ chăm sóc.",
+      "bodyFile": "article-5-body.html"
     },
     {
       "title": "Himesh Patel sở hữu bộ râu đẹp nhất trong The Odyssey – Không phải dài nhất, mà là cân đối nhất",
-      "image": "images/4rau/blog-6.webp"
+      "image": "images/4rau/blog-6.webp",
+      "category": "Râu",
+      "excerpt": "Cách chọn form râu cân đối với khuôn mặt thay vì chạy theo độ dài.",
+      "bodyFile": "article-6-body.html"
     },
     {
       "title": "Kiểu tóc Lionel Messi: Vì sao gần 20 năm vẫn không lỗi thời? Góc nhìn của barber 4RAU",
-      "image": "images/4rau/blog-7.webp"
+      "image": "images/4rau/blog-7.webp",
+      "category": "Kiểu tóc",
+      "excerpt": "Vì sao những kiểu tóc đơn giản lại có thể bền với thời gian.",
+      "bodyFile": "article-7-body.html"
     }
   ]
 }
