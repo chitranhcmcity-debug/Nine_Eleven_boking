@@ -87,7 +87,7 @@ import { ProductCard } from './shop/product-card';
 })
 export class Home {
   protected readonly data = toSignal(inject(Api).home());
-  protected readonly friends = [2, 13, 17, 12, 3, 11, 15, 14];
+  protected readonly friends = [13, 17, 3, 11, 14];
   protected readonly tz = SALON_TZ;
   protected readonly paused = signal(false);
   private readonly hero = viewChild.required<ElementRef<HTMLVideoElement>>('hero');
