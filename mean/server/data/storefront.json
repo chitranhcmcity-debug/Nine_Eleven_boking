@@ -1,0 +1,352 @@
+{
+  "products": [
+    {
+      "name": "Sản phẩm mới: BROSH × WILDSIDE YOHJI YAMAMOTO GEL BULLDOG CHAIN",
+      "src": "https://4rau.vn/storage/concungback/images/product/200093.webp",
+      "price": 630000,
+      "slug": "brosh-×-wildside-yohji-yamamoto-gel-bulldog-chain",
+      "image": "images/4rau/product-0.webp",
+      "category": "grooming",
+      "brand": "Sản",
+      "featured": false
+    },
+    {
+      "name": "Sản phẩm mới: BROSH × WILDSIDE YOHJI YAMAMOTO POMADE BULLDOG CHAIN",
+      "src": "https://4rau.vn/storage/concungback/images/product/2000 (1)59.webp",
+      "price": 580000,
+      "slug": "brosh-×-wildside-yohji-yamamoto-pomade-bulldog-chain",
+      "image": "images/4rau/product-1.webp",
+      "category": "grooming",
+      "brand": "Sản",
+      "featured": false
+    },
+    {
+      "name": "Sản phẩm mới: HOLUP MAGNOLIA POMADE",
+      "src": "https://4rau.vn/storage/concungback/images/product/01_YELLOW_PRODUCT_PAGE_HOLUP1773238187176785109.webp",
+      "price": 480000,
+      "slug": "holup-magnolia-pomade",
+      "image": "images/4rau/product-2.webp",
+      "category": "grooming",
+      "brand": "Sản",
+      "featured": false
+    },
+    {
+      "name": "Sản phẩm mới: HOLUP GROOMING TONIC HOLLYWOOD",
+      "src": "https://4rau.vn/storage/concungback/images/product/011_HOLLYWOOD_gromming_tonic_PRODUCT_PAGE_HOLUP17733168198602616.webp",
+      "price": 600000,
+      "slug": "holup-grooming-tonic-hollywood",
+      "image": "images/4rau/product-3.webp",
+      "category": "grooming",
+      "brand": "Sản",
+      "featured": false
+    },
+    {
+      "name": "Sản phẩm mới: BROSH × WACKO MARIA GREASE",
+      "src": "https://4rau.vn/storage/concungback/images/product/wacko_grease_27407.webp",
+      "price": 580000,
+      "slug": "brosh-×-wacko-maria-grease",
+      "image": "images/4rau/product-4.webp",
+      "category": "grooming",
+      "brand": "Sản",
+      "featured": false
+    },
+    {
+      "name": "Sản phẩm mới: 4RAU RAGLAN LONGTEE - RED",
+      "src": "https://4rau.vn/storage/concungback/images/product/RAGLAN - ĐỎ - MẶT TRƯỚC4112.webp",
+      "price": 490000,
+      "slug": "4rau-raglan-longtee-red",
+      "image": "images/4rau/product-5.webp",
+      "category": "thoi-trang",
+      "brand": "Sản",
+      "featured": false
+    },
+    {
+      "name": "Sản phẩm mới: 4RAU Winter Tote 2025",
+      "src": "https://4rau.vn/storage/concungback/images/product/DSC0276112.webp",
+      "price": 99000,
+      "slug": "4rau-winter-tote-2025",
+      "image": "images/4rau/product-6.webp",
+      "category": "thoi-trang",
+      "brand": "Sản",
+      "featured": false
+    },
+    {
+      "name": "Sản phẩm mới: 4RAU Winter Trucker Hat 2025 - RED",
+      "src": "https://4rau.vn/storage/concungback/images/product/4RAUMERCHANDISE-77239.webp",
+      "price": 450000,
+      "slug": "4rau-winter-trucker-hat-2025-red",
+      "image": "images/4rau/product-7.webp",
+      "category": "thoi-trang",
+      "brand": "Sản",
+      "featured": false
+    },
+    {
+      "name": "Sản phẩm mới: 4RAU Winter Trucker Hat 2025 - BLACK",
+      "src": "https://4rau.vn/storage/concungback/images/product/4RAUMERCHANDISE-76161.webp",
+      "price": 450000,
+      "slug": "4rau-winter-trucker-hat-2025-black",
+      "image": "images/4rau/product-8.webp",
+      "category": "thoi-trang",
+      "brand": "Sản",
+      "featured": false
+    },
+    {
+      "name": "Sản phẩm mới: 4RAU WINTER Box T-Shirt 2025 - WHITE",
+      "src": "https://4rau.vn/storage/concungback/images/product/trắng mt FL 1.189.webp",
+      "price": 390000,
+      "slug": "4rau-winter-box-t-shirt-2025-white",
+      "image": "images/4rau/product-9.webp",
+      "category": "thoi-trang",
+      "brand": "Sản",
+      "featured": false
+    },
+    {
+      "name": "Sản phẩm mới: 4RAU WINTER Box T-Shirt 2025 - RED",
+      "src": "https://4rau.vn/storage/concungback/images/product/Đỏ mt FL 1.19.webp",
+      "price": 390000,
+      "slug": "4rau-winter-box-t-shirt-2025-red",
+      "image": "images/4rau/product-10.webp",
+      "category": "thoi-trang",
+      "brand": "Sản",
+      "featured": false
+    },
+    {
+      "name": "Sản phẩm mới: CAPTAIN FAWCETT’S BAY RUM HAIR TONIC",
+      "src": "https://4rau.vn/storage/concungback/images/product/captainfacetttonicbayrum33.webp",
+      "price": 799000,
+      "slug": "captain-fawcett’s-bay-rum-hair-tonic",
+      "image": "images/4rau/product-11.webp",
+      "category": "grooming",
+      "brand": "Sản",
+      "featured": false
+    },
+    {
+      "name": "BROSH CLAY FIBER POMADE",
+      "src": "https://4rau.vn/storage/concungback/images/product/z5502746238769_ff26596a2f7b6b434abd9966e52cf975-0278.webp",
+      "price": 570000,
+      "slug": "brosh-clay-fiber-pomade",
+      "image": "images/4rau/product-12.webp",
+      "category": "grooming",
+      "brand": "BROSH",
+      "featured": true
+    },
+    {
+      "name": "BROSH CLAY POMADE",
+      "src": "https://4rau.vn/storage/concungback/images/product/6_000000000028-5943.webp",
+      "price": 570000,
+      "slug": "brosh-clay-pomade",
+      "image": "images/4rau/product-13.webp",
+      "category": "grooming",
+      "brand": "BROSH",
+      "featured": true
+    },
+    {
+      "name": "BROSH FIBER POMADE",
+      "src": "https://4rau.vn/storage/concungback/images/product/brosh-png-5136.webp",
+      "price": 570000,
+      "slug": "brosh-fiber-pomade",
+      "image": "images/4rau/product-14.webp",
+      "category": "grooming",
+      "brand": "BROSH",
+      "featured": true
+    },
+    {
+      "name": "BROSH ORIGINAL POMADE",
+      "src": "https://4rau.vn/storage/concungback/images/product/broshjp-8757.webp",
+      "price": 570000,
+      "slug": "brosh-original-pomade",
+      "image": "images/4rau/product-15.webp",
+      "category": "grooming",
+      "brand": "BROSH",
+      "featured": true
+    },
+    {
+      "name": "BROSH TONIC SPRAY",
+      "src": "https://4rau.vn/storage/concungback/images/product/71bxlanyldl-9656.webp",
+      "price": 500000,
+      "slug": "brosh-tonic-spray",
+      "image": "images/4rau/product-16.webp",
+      "category": "grooming",
+      "brand": "BROSH",
+      "featured": true
+    },
+    {
+      "name": "KBP Original Pomade",
+      "src": "https://4rau.vn/storage/concungback/images/product/kbp-og-02_x1024-2669.webp",
+      "price": 440000,
+      "slug": "kbp-original-pomade",
+      "image": "images/4rau/product-17.webp",
+      "category": "grooming",
+      "brand": "KBP",
+      "featured": true
+    },
+    {
+      "name": "BROSH SUPER HARD GEL",
+      "src": "https://4rau.vn/storage/concungback/images/product/4000000000037-867594.webp",
+      "price": 600000,
+      "slug": "brosh-super-hard-gel",
+      "image": "images/4rau/product-18.webp",
+      "category": "grooming",
+      "brand": "BROSH",
+      "featured": true
+    },
+    {
+      "name": "4RAU 4EVER WHITE TEE",
+      "src": "https://4rau.vn/storage/concungback/images/product/dsc03576-9674.webp",
+      "price": 189000,
+      "slug": "4rau-4ever-white-tee",
+      "image": "images/4rau/product-19.webp",
+      "category": "thoi-trang",
+      "brand": "4RAU",
+      "featured": true
+    },
+    {
+      "name": "Bột Tạo Phồng Brosh Powder Magic",
+      "src": "https://4rau.vn/storage/concungback/images/product/a8a2cd_d17197d0782b4c3489121c210d51f802~mv2-0061.webp",
+      "price": 420000,
+      "slug": "bot-tao-phong-brosh-powder-magic",
+      "image": "images/4rau/product-20.webp",
+      "category": "grooming",
+      "brand": "Bột",
+      "featured": true
+    },
+    {
+      "name": "KBP Matte Pomade",
+      "src": "https://4rau.vn/storage/concungback/images/product/matte_pomade-11_2000x-3526.webp",
+      "price": 440000,
+      "slug": "kbp-matte-pomade",
+      "image": "images/4rau/product-21.webp",
+      "category": "grooming",
+      "brand": "KBP",
+      "featured": true
+    },
+    {
+      "name": "4RAU SNEAKER SLIP ON",
+      "src": "https://4rau.vn/storage/concungback/images/product/z2432685089677_49716a35ea8bdc3fddf3b54dbe20dc76-9514.webp",
+      "price": 950000,
+      "slug": "4rau-sneaker-slip-on",
+      "image": "images/4rau/product-22.webp",
+      "category": "thoi-trang",
+      "brand": "4RAU",
+      "featured": true
+    },
+    {
+      "name": "KBP Premium Pomade",
+      "src": "https://4rau.vn/storage/concungback/images/product/screen-shot-2022-02-22-at-1.09.46-pm-7541.webp",
+      "price": 440000,
+      "slug": "kbp-premium-pomade",
+      "image": "images/4rau/product-23.webp",
+      "category": "grooming",
+      "brand": "KBP",
+      "featured": true
+    }
+  ],
+  "branches": [
+    {
+      "name": "4RAU Barber Cutclub – 4RAU Barber Cutclub Nhà Bè – Cắt Tóc Nam Sunrise Riverside",
+      "image": "images/4rau/branch-0.webp"
+    },
+    {
+      "name": "4RAU Barber Cutclub – 4RAU Barber Cutclub Quận 5 | Cắt Tóc Nam Chợ Lớn",
+      "image": "images/4rau/branch-1.webp"
+    },
+    {
+      "name": "4RAU Barber Cutclub – 4RAU Barber Cutclub Bình Tân | Cắt Tóc Nam Privia Khang Điền",
+      "image": "images/4rau/branch-2.webp"
+    },
+    {
+      "name": "4RAU Barber Cutclub – 4RAU Barber Cutclub Quận 1 | Cắt Tóc Nam Trần Quang Khải",
+      "image": "images/4rau/branch-3.webp"
+    },
+    {
+      "name": "4RAU Barber Cutclub – 4RAU Barber Cutclub Popup Thủ Thiêm Park | Cắt Tóc Nam",
+      "image": "images/4rau/branch-4.webp"
+    },
+    {
+      "name": "4RAU Barber Cutclub – 4RAU Barber Cutclub Quận 9 | Cắt Tóc Nam Vinhomes Grand Park",
+      "image": "images/4rau/branch-5.webp"
+    },
+    {
+      "name": "4RAU Barber Cutclub – 4RAU Barber Cutclub Tân Phú | Cắt Tóc Nam Đường Độc Lập",
+      "image": "images/4rau/branch-6.webp"
+    },
+    {
+      "name": "4RAU Barber Cutclub – 4RAU Barber Cutclub Tân Bình | Cắt Tóc Nam Gần Sân Bay",
+      "image": "images/4rau/branch-7.webp"
+    },
+    {
+      "name": "4RAU Barber Cutclub – 4RAU Barber Cutclub Quận 2 | Cắt Tóc Nam One Verandah",
+      "image": "images/4rau/branch-8.webp"
+    },
+    {
+      "name": "4RAU Barber Cutclub – 4RAU Barber Cutclub Gò Vấp | Cắt Tóc Nam Phan Văn Trị",
+      "image": "images/4rau/branch-9.webp"
+    },
+    {
+      "name": "4RAU Barber Cutclub – 4RAU Barber Cutclub Quận 4 | Cắt Tóc Nam Bến Vân Đồn",
+      "image": "images/4rau/branch-10.webp"
+    },
+    {
+      "name": "4RAU Barber Cutclub – 4RAU Barber Cutclub Quận 2 | Cắt Tóc Nam Thảo Điền",
+      "image": "images/4rau/branch-11.webp"
+    },
+    {
+      "name": "4RAU Barber Cutclub – 4RAU Barber Cutclub Bình Thạnh | Cắt Tóc Nam Hàng Xanh",
+      "image": "images/4rau/branch-12.webp"
+    },
+    {
+      "name": "4RAU Barber Cutclub – 4RAU Barber Cutclub Quận 7 – Cắt Tóc Nam Phú Mỹ Hưng",
+      "image": "images/4rau/branch-13.webp"
+    },
+    {
+      "name": "4RAU Barber Cutclub – 4RAU Barber Cutclub Quận 10 | Cắt Tóc Nam Điện Biên Phủ",
+      "image": "images/4rau/branch-14.webp"
+    },
+    {
+      "name": "Tiệm Tóc Của Chú Tư – Tiệm Tóc Của Chú Tư Barber Deluxe – Đông Du, Quận 1",
+      "image": "images/4rau/branch-15.webp"
+    },
+    {
+      "name": "Tiệm Tóc Của Chú Tư – Tiệm Tóc Của Chú Tư Barber Deluxe – Điện Biên Phủ, Q3",
+      "image": "images/4rau/branch-16.webp"
+    },
+    {
+      "name": "Tiệm Tóc Của Chú Tư – Tiệm Tóc Của Chú Tư Barber Deluxe – Yersin, Quận 1",
+      "image": "images/4rau/branch-17.webp"
+    }
+  ],
+  "blogs": [
+    {
+      "title": "TỪ HIMASS ĐẾN NHỮNG “ÔNG TRÙM” PUBG: DÂN ESPORTS ĐANG ĐỂ KIỂU TÓC GÌ?",
+      "image": "images/4rau/blog-0.webp"
+    },
+    {
+      "title": "Erling Haaland cắt Buzz Cut: Khi “người Viking” trở lại với mái tóc quân đội",
+      "image": "images/4rau/blog-1.webp"
+    },
+    {
+      "title": "Ngày Đẹp Cắt Tóc Tháng 9/2026 Ngày Nào Tốt? 5 Ngày Đẹp Nhất Theo Lịch Vạn Niên",
+      "image": "images/4rau/blog-2.webp"
+    },
+    {
+      "title": "Pomade Gốc Dầu Khó Gội? Đây Là Cách Barber 4RAU Vẫn Làm Mỗi Ngày",
+      "image": "images/4rau/blog-3.webp"
+    },
+    {
+      "title": "Warrior Cut Là Gì? Kiểu Tóc James (CORTIS) Đang Gây Sốt TikTok 2026",
+      "image": "images/4rau/blog-4.webp"
+    },
+    {
+      "title": "HAIR HỌC TRÒ 2026: 10 Kiểu Tóc Nam Đi Học Đẹp, Gọn, Chuẩn Trend",
+      "image": "images/4rau/blog-5.webp"
+    },
+    {
+      "title": "Himesh Patel sở hữu bộ râu đẹp nhất trong The Odyssey – Không phải dài nhất, mà là cân đối nhất",
+      "image": "images/4rau/blog-6.webp"
+    },
+    {
+      "title": "Kiểu tóc Lionel Messi: Vì sao gần 20 năm vẫn không lỗi thời? Góc nhìn của barber 4RAU",
+      "image": "images/4rau/blog-7.webp"
+    }
+  ]
+}

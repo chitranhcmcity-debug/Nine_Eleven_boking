@@ -1,0 +1,90 @@
+[
+  {
+    "name": "NineEleven Trucker Cap",
+    "slug": "nineeleven-trucker-cap",
+    "image": "images/products/nineeleven-trucker-cap.jpg",
+    "category": "thoi-trang",
+    "price": 350000,
+    "badge": "MỚI",
+    "newArrival": true,
+    "featured": false,
+    "description": "Nón lưỡi trai NineEleven Barber Shop, mặt trước trắng, lưới đen phía sau thoáng khí."
+  },
+  {
+    "name": "NineEleven Graphic Tee",
+    "slug": "nineeleven-graphic-tee",
+    "image": "images/products/nineeleven-graphic-tee.jpg",
+    "category": "thoi-trang",
+    "price": 420000,
+    "badge": "MỚI",
+    "newArrival": true,
+    "featured": false,
+    "description": "Áo thun đen in chữ \"Cutting Hair Changing Lives\" ở mặt sau."
+  },
+  {
+    "name": "NineEleven Matte Clay",
+    "slug": "nineeleven-matte-clay",
+    "image": "images/products/nineeleven-matte-clay.jpg",
+    "category": "grooming",
+    "price": 280000,
+    "badge": "",
+    "newArrival": false,
+    "featured": true,
+    "description": "Sáp tạo kiểu Matte Clay, giữ nếp mạnh, hoàn thiện tự nhiên. Hũ 100g."
+  },
+  {
+    "name": "NineEleven Fade Brush",
+    "slug": "nineeleven-fade-brush",
+    "image": "images/products/nineeleven-fade-brush.jpg",
+    "category": "dung-cu-barber",
+    "price": 220000,
+    "badge": "",
+    "newArrival": true,
+    "featured": false,
+    "description": "Chổi fade của barber, lông mềm quét tóc vụn sau khi cắt."
+  },
+  {
+    "name": "NineEleven Hair Tonic",
+    "slug": "nineeleven-hair-tonic",
+    "image": "images/products/nineeleven-hair-tonic.jpg",
+    "category": "grooming",
+    "price": 350000,
+    "badge": "",
+    "newArrival": false,
+    "featured": true,
+    "description": "Bộ xịt tạo phồng Sea Salt Hair Tonic và Texture Spray cho mái tóc có độ phồng, texture tự nhiên."
+  },
+  {
+    "name": "NineEleven Clipper Pro",
+    "slug": "nineeleven-clipper-pro",
+    "image": "images/products/nineeleven-clipper-pro.jpg",
+    "category": "dung-cu-barber",
+    "price": 1890000,
+    "badge": "",
+    "newArrival": false,
+    "featured": true,
+    "description": "Tông đơ chuyên nghiệp NineEleven Clipper Pro dành cho barber."
+  },
+  {
+    "name": "NineEleven Keychain",
+    "slug": "nineeleven-keychain",
+    "image": "images/products/nineeleven-keychain.jpg",
+    "category": "thoi-trang",
+    "price": 120000,
+    "badge": "",
+    "newArrival": true,
+    "featured": false,
+    "description": "Móc khóa kim loại logo NineEleven Barber Shop."
+  },
+  {
+    "name": "NineEleven Pomade",
+    "slug": "nineeleven-pomade",
+    "image": "images/products/nineeleven-pomade.jpg",
+    "category": "grooming",
+    "price": 320000,
+    "badge": "BEST",
+    "newArrival": false,
+    "featured": true,
+    "description": "Sáp Pomade giữ nếp mạnh, độ bóng cao. Hũ 100g."
+  }
+]

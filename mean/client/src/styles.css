@@ -1,0 +1,94 @@
+/* NineEleven wordmark: black artwork on white, cropped to its visible band. */
+.brand .brand-logo,
+.store-footer .footer-logo {
+  aspect-ratio: 2.2;
+  object-fit: cover;
+  object-position: 50% 52%;
+  height: auto;
+}
+.brand .brand-logo {
+  width: 150px;
+  mix-blend-mode: multiply;
+}
+.store-footer .footer-logo {
+  width: 180px;
+  margin-bottom: 12px;
+  filter: invert(1);
+  mix-blend-mode: screen;
+}
+
+/* The hero video carries the logo itself; this spacer reserves its room (sized by the hero height, so short screens never clip the buttons). */
+.storefront .video-caption h1 {
+  margin: 10px 0 26px;
+}
+.storefront .video-caption h1 .hero-spacer {
+  width: auto;
+  height: clamp(100px, 20vh, 240px);
+  aspect-ratio: 2.2;
+  margin: 0 auto;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* Main navigation: hover hint, and a red bar plus red text for the page being viewed. */
+.storefront .main-nav > a,
+.storefront .shop-menu > a {
+  transition: box-shadow 0.15s, color 0.15s;
+}
+.storefront .main-nav > a:hover,
+.storefront .shop-menu > a:hover {
+  box-shadow: inset 0 -3px 0 #161616;
+}
+.storefront .main-nav > a.is-active,
+.storefront .shop-menu > a.is-active {
+  color: #c1272d;
+  box-shadow: inset 0 -3px 0 #c1272d;
+}
+
+/* Dark storefront header. */
+.storefront .store-header.is-dark {
+  background: #0b0b0b;
+  border-bottom-color: #232323;
+  color: #fff;
+}
+.storefront .store-header.is-dark .brand-logo {
+  filter: invert(1);
+  mix-blend-mode: screen;
+}
+.storefront .store-header.is-dark .main-nav > a,
+.storefront .store-header.is-dark .shop-menu > a,
+.storefront .store-header.is-dark .header-actions a,
+.storefront .store-header.is-dark .header-actions button,
+.storefront .store-header.is-dark .mobile-toggle {
+  color: #fff;
+}
+.storefront .store-header.is-dark .main-nav > a:hover,
+.storefront .store-header.is-dark .shop-menu > a:hover {
+  box-shadow: inset 0 -3px 0 #fff;
+}
+.storefront .store-header.is-dark .main-nav > a.is-active,
+.storefront .store-header.is-dark .shop-menu > a.is-active {
+  color: #fff;
+  box-shadow: inset 0 -3px 0 #c1272d;
+}
+.storefront .store-header.is-dark .cart-count {
+  background: #fff;
+  color: #0b0b0b;
+}
+.storefront .store-header.is-dark .ask-barber {
+  border-color: #6a6a6a;
+}
+@media (max-width: 800px) {
+  .storefront .store-header.is-dark .main-nav > a,
+  .storefront .store-header.is-dark .shop-menu > a {
+    color: #161616;
+  }
+}
