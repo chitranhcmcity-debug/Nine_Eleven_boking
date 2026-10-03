@@ -270,7 +270,10 @@
   "blogs": [
     {
       "title": "TỪ HIMASS ĐẾN NHỮNG “ÔNG TRÙM” PUBG: DÂN ESPORTS ĐANG ĐỂ KIỂU TÓC GÌ?",
-      "image": "images/4rau/blog-0.webp"
+      "image": "images/4rau/blog-0.webp",
+      "category": "Kiểu tóc",
+      "excerpt": "Từ màu tóc bạc đến những kiểu rẽ ngôi quen thuộc — năm kiểu tóc nam đang được game thủ và dân thi đấu ưa chuộng.",
+      "bodyFile": "article-0-body.html"
     },
     {
       "title": "Erling Haaland cắt Buzz Cut: Khi “người Viking” trở lại với mái tóc quân đội",

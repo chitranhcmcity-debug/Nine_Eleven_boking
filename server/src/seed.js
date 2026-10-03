@@ -55,8 +55,9 @@ function toArticle(raw, index) {
   return {
     title: rebrand(raw.title),
     slug: slugify(rebrand(raw.title)),
-    excerpt: 'Cảm hứng tóc, grooming và lifestyle từ barber NineEleven.',
-    body: 'Nội dung bài viết đang được cập nhật.',
+    excerpt: raw.excerpt ?? 'Cảm hứng tóc, grooming và lifestyle từ barber NineEleven.',
+    body: raw.bodyFile ? fs.readFileSync(path.join(here, `../data/${raw.bodyFile}`), 'utf8') : 'Nội dung bài viết đang được cập nhật.',
+    category: raw.category ?? 'Kiểu tóc',
     image: raw.image,
     createdAt: new Date(Date.now() - index * 3 * 24 * 60 * 60 * 1000),
   };

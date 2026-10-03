@@ -85,6 +85,7 @@ export const Article = define('Article', {
   slug: { type: String, required: true, unique: true },
   excerpt: String,
   body: String,
+  category: String,
   image: String,
 });
 
