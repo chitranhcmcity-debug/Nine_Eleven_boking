@@ -24,7 +24,13 @@ import { ProductCard } from './shop/product-card';
           <a class="button outline" routerLink="/mua-sam">MUA SẮM →</a>
         </div>
       </div>
-      <button class="video-toggle" [attr.aria-label]="paused() ? 'Phát video' : 'Tạm dừng video'" (click)="toggleVideo()">{{ paused() ? '▶' : 'Ⅱ' }}</button>
+      <button class="video-toggle" [attr.aria-label]="paused() ? 'Phát video' : 'Tạm dừng video'" (click)="toggleVideo()">
+        @if (paused()) {
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l13-7.5z" /></svg>
+        } @else {
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z" /></svg>
+        }
+      </button>
     </section>
 
     <section class="content-section friends-section">

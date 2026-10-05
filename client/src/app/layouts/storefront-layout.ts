@@ -15,7 +15,7 @@ import { StyleLoader } from '../core/style-loader';
     </div>
     <header class="store-header is-dark">
       <a class="brand" routerLink="/" aria-label="NineEleven trang chủ"><img class="brand-logo" src="images/nineeleven-logo.png" alt="" width="150" height="68" /></a>
-      <button class="mobile-toggle" aria-label="Mở điều hướng" [attr.aria-expanded]="menuOpen()" aria-controls="main-nav" (click)="menuOpen.set(!menuOpen())">☰</button>
+      <button class="mobile-toggle" aria-label="Mở điều hướng" [attr.aria-expanded]="menuOpen()" aria-controls="main-nav" (click)="menuOpen.set(!menuOpen())"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" /></svg></button>
       <nav id="main-nav" class="main-nav" [class.is-open]="menuOpen()" aria-label="Điều hướng chính" (click)="menuOpen.set(false)">
         <div class="shop-menu">
           <a routerLink="/mua-sam" routerLinkActive="is-active" ariaCurrentWhenActive="page">MUA SẮM <sup>MỚI</sup>⌄</a>
@@ -44,7 +44,7 @@ import { StyleLoader } from '../core/style-loader';
         <a routerLink="/dat-lich" routerLinkActive="is-active" ariaCurrentWhenActive="page">ĐẶT LỊCH ↗</a>
       </nav>
       <div class="header-actions">
-        <button aria-label="Mở tìm kiếm" [attr.aria-expanded]="searchOpen()" aria-controls="search-panel" (click)="searchOpen.set(!searchOpen())">⌕</button>
+        <button aria-label="Mở tìm kiếm" [attr.aria-expanded]="searchOpen()" aria-controls="search-panel" (click)="searchOpen.set(!searchOpen())"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" /><path d="m16 16 4.5 4.5" /></svg></button>
         <a routerLink="/gio-hang" aria-label="Giỏ hàng">TÚI <span class="cart-count">{{ cart.count() }}</span></a>
         <a class="ask-barber" routerLink="/tu-van">HỎI BARBER ↗</a>
       </div>
@@ -98,7 +98,7 @@ export class StorefrontLayout {
   protected readonly brands = ['BROSH', 'HOLUP', 'KBP'];
 
   constructor() {
-    const detach = inject(StyleLoader).attach(['css/app.css', 'css/storefront.css'], 'storefront');
+    const detach = inject(StyleLoader).attach(['css/app.css', 'css/storefront.css', 'css/storefront-polish.css'], 'storefront');
     inject(DestroyRef).onDestroy(detach);
   }
 

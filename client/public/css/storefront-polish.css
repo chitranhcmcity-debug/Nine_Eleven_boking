@@ -1,0 +1,129 @@
+/* Visual polish layered over storefront.css: legibility, touch targets, hover states, one hero entrance. */
+.storefront {
+  --acid: #c32329;
+  --muted: #5f5f5f;
+  font-family: Manrope, Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+.storefront .store-header {
+  background: rgba(255, 255, 255, 0.92);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+.storefront .main-nav > a,
+.storefront .shop-menu > a {
+  transition: color 0.2s;
+}
+.storefront .main-nav > a:hover,
+.storefront .shop-menu > a:hover,
+.storefront .main-nav a.is-active {
+  color: var(--acid);
+}
+.storefront .header-actions button,
+.storefront .mobile-toggle {
+  display: inline-grid;
+  place-items: center;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0;
+  color: inherit;
+  cursor: pointer;
+}
+.storefront .mobile-toggle { display: none; }
+.storefront .header-actions button svg,
+.storefront .mobile-toggle svg,
+.storefront .video-toggle svg {
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.storefront .video-toggle svg { width: 16px; height: 16px; fill: currentColor; stroke: none; }
+.storefront .ask-barber { transition: background 0.2s, color 0.2s, border-color 0.2s; }
+.storefront .ask-barber:hover { background: #111; border-color: #111; color: #fff; }
+.storefront .top-notice { font-size: 11px; }
+
+/* Buttons */
+.storefront .button { transition: background 0.2s, border-color 0.2s, color 0.2s; }
+.storefront .button.white:hover { background: var(--acid); border-color: var(--acid); color: #fff !important; }
+.storefront .button.outline:hover { background: #fff; color: #111 !important; }
+
+/* Hero: stronger scrim for legibility, one staggered entrance on load */
+.storefront .hero-shade {
+  background:
+    linear-gradient(0deg, rgba(0, 0, 0, 0.62), transparent 60%),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.28), transparent 35%);
+}
+.storefront .video-caption h1 { text-shadow: 0 4px 40px rgba(0, 0, 0, 0.35); }
+.storefront .video-caption > p { font-size: 12px; font-weight: 700; }
+.storefront .video-toggle {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  transition: background 0.2s;
+}
+.storefront .video-toggle:hover { background: #0009; }
+@keyframes hero-rise {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: none; }
+}
+.storefront .video-caption > * {
+  animation: hero-rise 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+.storefront .video-caption > h1 { animation-delay: 0.12s; }
+.storefront .video-caption > div { animation-delay: 0.28s; }
+
+/* Section headings */
+.storefront .section-title h2::before {
+  content: '';
+  display: block;
+  width: 36px;
+  height: 3px;
+  margin-bottom: 14px;
+  background: var(--acid);
+}
+.storefront .section-title p,
+.storefront .branch-section p,
+.storefront .page-heading p,
+.storefront .article-card p,
+.storefront .branch-tile p { color: var(--muted); }
+.storefront .section-title > a,
+.storefront .section-title > span { font-size: 12px; }
+.storefront .section-title > a { transition: color 0.2s, border-color 0.2s; }
+.storefront .section-title > a:hover { color: var(--acid); }
+
+/* Friends strip */
+.storefront .friends-strip { scrollbar-width: thin; }
+.storefront .friends-strip img { border-radius: 4px; }
+
+/* Articles */
+.storefront .article-card { cursor: pointer; }
+.storefront .article-card small { font-size: 11px; color: var(--muted); }
+.storefront .article-card img { transition: opacity 0.25s; }
+.storefront .article-card:hover img { opacity: 0.88; }
+.storefront .article-card h3 { transition: color 0.2s; }
+.storefront .article-card:hover h3 { color: var(--acid); }
+
+/* Branches */
+.storefront .overline { font-size: 12px; color: var(--acid); }
+.storefront .branch-mosaic a { cursor: pointer; }
+.storefront .branch-mosaic img { transition: transform 0.5s; }
+.storefront .branch-mosaic a:hover img { transform: scale(1.06); }
+.storefront .branch-mosaic span { font-size: 12px; font-weight: 700; }
+
+/* Footer */
+.storefront .booking-band small { font-size: 12px; }
+.storefront .store-footer a { transition: color 0.2s; }
+.storefront .store-footer a:hover { color: #fff; }
+.storefront .footer-bottom { font-size: 11px; }
+
+@media (max-width: 800px) {
+  .storefront .mobile-toggle { display: inline-grid; margin-left: auto; }
+  .storefront .top-notice { font-size: 10px; }
+  .storefront .branch-mosaic span { font-size: 10px; }
+}
